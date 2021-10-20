@@ -3,7 +3,7 @@ import MathWallet from "./icons/MathWallet";
 import TokenPocket from "./icons/TokenPocket";
 import TrustWallet from "./icons/TrustWallet";
 import WalletConnect from "./icons/WalletConnect";
-import BinanceChain from "./icons/BinanceChain";
+import Klaytn from "./icons/Klaytn";
 import SafePalWallet from "./icons/SafePalWallet";
 import { Config, ConnectorNames } from "./types";
 
@@ -34,8 +34,8 @@ const connectors: Config[] = [
     connectorId: ConnectorNames.WalletConnect,
   },
   {
-    title: "Binance Chain Wallet",
-    icon: BinanceChain,
+    title: "Kaikas",
+    icon: Klaytn,
     connectorId: ConnectorNames.Kaikas,
   },
   {

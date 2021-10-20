@@ -57,7 +57,7 @@ export type Colors = {
   gradients: Gradients;
 
   // Brand colors
-  binance: string;
+  klaytn: string;
 };
 
 export type ZIndices = {
