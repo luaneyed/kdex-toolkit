@@ -36,7 +36,7 @@ const connectors: Config[] = [
   {
     title: "Binance Chain Wallet",
     icon: BinanceChain,
-    connectorId: ConnectorNames.BSC,
+    connectorId: ConnectorNames.Kaikas,
   },
   {
     title: "SafePal Wallet",
