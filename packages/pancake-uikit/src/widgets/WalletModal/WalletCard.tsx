@@ -18,9 +18,9 @@ const WalletCard: React.FC<Props> = ({ login, walletConfig, onDismiss, mb }) => 
       width="100%"
       variant="tertiary"
       onClick={() => {
+        onDismiss();
         login(walletConfig.connectorId);
         window.localStorage.setItem(connectorLocalStorageKey, walletConfig.connectorId);
-        onDismiss();
       }}
       style={{ justifyContent: "space-between" }}
       mb={mb}
