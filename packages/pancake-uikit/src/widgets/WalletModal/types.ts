@@ -5,6 +5,7 @@ export enum ConnectorNames {
   Injected = "injected",
   WalletConnect = "walletconnect",
   Kaikas = "kaikas",
+  Klip = "klip",
 }
 
 export type Login = (connectorId: ConnectorNames) => void;

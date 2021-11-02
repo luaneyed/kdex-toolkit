@@ -39,6 +39,11 @@ const connectors: Config[] = [
     connectorId: ConnectorNames.Kaikas,
   },
   {
+    title: "Klip",
+    icon: Klaytn,
+    connectorId: ConnectorNames.Klip,
+  },
+  {
     title: "SafePal Wallet",
     icon: SafePalWallet,
     connectorId: ConnectorNames.Injected,
